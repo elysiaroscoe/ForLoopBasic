@@ -12,8 +12,8 @@ for num in range (1,101):
     else:
         print(num)
 
+sum = 0
 for int in range (0,500001):
-    sum = 0
     if int % 2 != 0:
-        sum = sum + int
+        sum += int
 print(sum)
